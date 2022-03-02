@@ -88,7 +88,7 @@ describe('index.html', () => {
         foodPicsArr.shift();
 
         expect(foodPicsArr.length).toBe(9);
-    });
+});
 
     it('renders an input and button in footer nav with appropriate text', () => {
         const footerInput = container.querySelector('footer input');
